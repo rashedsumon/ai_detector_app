@@ -20,7 +20,7 @@ def initialize_model_backend():
 
 try:
     classifier_pipeline = initialize_model_backend()
-    st.success("System loaded and operational!", icon="✅")
+    
 except Exception as err:
     st.error(f"Failed to compile application background models: {err}")
     st.stop()
