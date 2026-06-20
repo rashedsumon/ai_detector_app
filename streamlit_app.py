@@ -4,7 +4,7 @@ from model import get_trained_pipeline
 
 # Configure global page properties
 st.set_page_config(
-    page_title="AI vs Human Text Classifier",
+    page_title="AI vs Human Text Prediction",
     page_icon="🤖",
     layout="centered"
 )
